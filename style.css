@@ -191,6 +191,7 @@ body {
   /* min-height: 50vh; */
   /* border: 2px solid black; */
   /* background-color: #9dbfdc; */
+  padding-top: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -248,7 +249,7 @@ body {
 /* about us */
 .about{
   min-height: 100vh;
-  padding-top: 8rem;
+  padding-top: 5rem;
   background-color: #9dbfdc;
 } 
 .about-box{
@@ -257,25 +258,26 @@ body {
   /* border: 2px solid red ; */
   align-items: center;
 }
-.about-title{
+/* .about-title{
   display: flex;
   flex-direction: column;
   padding: 3rem;
   
-}
+} */
 .main-title{
   font-size: 3rem;
   font-family: var(--primary-font);
   text-transform: capitalize;
   text-align: center;
-
+  padding: 2rem;
+margin: 2rem;
 }
 
 .about-description{
   font-size: 2rem;
   padding: 3rem;
   font-family: var(--primary-font);
-  width: 70%;
+  width: 60%;
   /* border: 3px solid green; */
  
   box-shadow: 2rem 2rem 4rem 2rem rgb(115, 158, 164);
@@ -283,8 +285,8 @@ body {
 
 .mission{
   width: 80rem;
+  margin-top:2rem ;
   /* border: 2px solid red; */
-  padding: 0rem;
   display: flex;
   gap: 2rem;
   flex-direction: column;
@@ -373,8 +375,8 @@ body {
     font-size: 4rem;
   }
   .home-image {
-    width: 30rem;
-    margin-bottom: 3rem;
+    width: 25rem;
+    margin-bottom: 2rem;
   }
   .home-text-box {
     width: 80vw;
@@ -383,5 +385,23 @@ body {
   }
   .departments-box {
     row-gap: 2rem;
+  }
+  /* about responsiveness */
+  .about-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-description{
+    width: 100vw;
+    box-shadow: none;
+   
+  }
+  .mission{
+    width: 80vw;
+    /* padding-right: 12rem; */
+    /* border: 2px solid red; */
+    font-size: 1.5rem;
   }
 }
