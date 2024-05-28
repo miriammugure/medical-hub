@@ -245,6 +245,77 @@ body {
   font-size: 2rem;
   color: rgb(0, 0, 0);
 }
+/* about us */
+.about{
+  min-height: 100vh;
+  padding-top: 8rem;
+  background-color: #9dbfdc;
+} 
+.about-box{
+  display: flex;
+  justify-content: space-around;
+  /* border: 2px solid red ; */
+  align-items: center;
+}
+.about-title{
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  
+}
+.main-title{
+  font-size: 3rem;
+  font-family: var(--primary-font);
+  text-transform: capitalize;
+  text-align: center;
+
+}
+
+.about-description{
+  font-size: 2rem;
+  padding: 3rem;
+  font-family: var(--primary-font);
+  width: 70%;
+  /* border: 3px solid green; */
+ 
+  box-shadow: 2rem 2rem 4rem 2rem rgb(115, 158, 164);
+}
+
+.mission{
+  width: 80rem;
+  /* border: 2px solid red; */
+  padding: 0rem;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+
+}
+/* .mission-text:hover{
+  background-color: #6084a3;
+} */
+.mission-text{
+  display: flex;
+  gap: 2rem;
+  /* border:2px solid black; */
+ /* transition: all 2s ease-in; */
+  padding: 1.5rem;
+}
+.image-mission{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-size: 2rem;
+  color: rgb(27, 95, 141);
+  /* border: red 2px solid; */
+}
+.time-open{
+  display: flex;
+  flex-direction: column;
+  column-gap: 1rem;
+  padding: 2rem;
+  border: 2px solid green;
+}
 @media screen and (max-width: 600px) {
   /* navigation bar responsiveness */
 
