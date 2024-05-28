@@ -1,4 +1,4 @@
-const hambuger = document.querySelector( ".hamburger");
+const hambuger = document.querySelector(".hamburger");
 const header_navlist = document.querySelector(".header-nav-list");
 
 hambuger.addEventListener("click", () => {
