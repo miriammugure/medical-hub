@@ -461,16 +461,16 @@ body {
     font-size: 3rem;
   }
   /* home responsiveness */
-  .home {
+  /* .home {
     border: 2px solid black;
-  }
+  } */
 
   .home-box {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     min-height: 100vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding-top: 11rem;
   }
   .home-title {
@@ -505,18 +505,17 @@ body {
     /* border: 2px solid red; */
     font-size: 1.5rem;
   }
-  .footer{
+  .footer-box{
+    border: 2px solid red;
     width: 100vw;
   }
-  .time-open,
-  .about-description,
-  .home-text{
+  .time-open
+  {
     box-shadow: none;
   }
   .social-media {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
   }
   .logo {
     font-size: 1.5rem;
