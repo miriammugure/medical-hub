@@ -507,7 +507,7 @@ body {
   }
   .footer-box{
     border: 2px solid red;
-    width: 100vw;
+    min-width: 100vw;
   }
   .time-open
   {
