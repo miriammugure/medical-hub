@@ -505,6 +505,14 @@ body {
     /* border: 2px solid red; */
     font-size: 1.5rem;
   }
+  .footer{
+    width: 100vw;
+  }
+  .time-open,
+  .about-description,
+  .home-text{
+    box-shadow: none;
+  }
   .social-media {
     display: flex;
     flex-direction: column;
