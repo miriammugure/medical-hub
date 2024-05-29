@@ -505,19 +505,10 @@ body {
     /* border: 2px solid red; */
     font-size: 1.5rem;
   }
-  .footer-box{
-    border: 2px solid red;
-    min-width: 100vw;
-    display: flex;
-    justify-content: space-between;
-  }
+  
   .time-open
   {
     box-shadow: none;
-  }
-  .social-media {
-    display: flex;
-    flex-direction: column;
   }
   .logo {
     font-size: 1.5rem;
