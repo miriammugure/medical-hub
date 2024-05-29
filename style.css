@@ -247,12 +247,12 @@ body {
   color: rgb(0, 0, 0);
 }
 /* about us */
-.about{
+.about {
   min-height: 100vh;
   padding-top: 5rem;
   background-color: #9dbfdc;
-} 
-.about-box{
+}
+.about-box {
   display: flex;
   justify-content: space-around;
   /* border: 2px solid red ; */
@@ -264,45 +264,45 @@ body {
   padding: 3rem;
   
 } */
-.main-title{
+.main-title {
   font-size: 3rem;
   font-family: var(--primary-font);
   text-transform: capitalize;
   text-align: center;
   padding: 2rem;
-margin: 2rem;
+  margin: 2rem;
 }
 
-.about-description{
+.about-description {
   font-size: 2rem;
-  padding: 3rem;
+  padding: 2rem;
+  margin: 2rem;
   font-family: var(--primary-font);
   width: 60%;
   /* border: 3px solid green; */
- 
-  box-shadow: 2rem 2rem 4rem 2rem rgb(115, 158, 164);
+
+  box-shadow: 2rem 2rem 10rem 2rem rgb(115, 158, 164);
 }
 
-.mission{
+.mission {
   width: 80rem;
-  margin-top:2rem ;
+  margin-top: 2rem;
   /* border: 2px solid red; */
   display: flex;
   gap: 2rem;
   flex-direction: column;
-
 }
 /* .mission-text:hover{
   background-color: #6084a3;
 } */
-.mission-text{
+.mission-text {
   display: flex;
   gap: 2rem;
   /* border:2px solid black; */
- /* transition: all 2s ease-in; */
+  /* transition: all 2s ease-in; */
   padding: 1.5rem;
 }
-.image-mission{
+.image-mission {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -311,7 +311,7 @@ margin: 2rem;
   color: rgb(27, 95, 141);
   /* border: red 2px solid; */
 }
-.time-open{
+.time-open {
   display: flex;
   flex-direction: column;
   column-gap: 1rem;
@@ -319,24 +319,106 @@ margin: 2rem;
   /* border: 2px solid green; */
   box-shadow: 2rem 2rem 4rem 2rem rgb(115, 158, 164);
 }
-.time-open h4{
+.time-open h4 {
   font-size: 5rem;
   text-transform: capitalize;
   text-align: center;
   font-family: var(--secondary-font);
-} 
-.fa-hospital{
+}
+.fa-hospital {
   font-size: 5rem;
   text-align: center;
 }
-.time-open p{
+.time-open p {
   font-size: 2rem;
   font-family: var(--primary-font);
   font-weight: bold;
   text-transform: capitalize;
   text-align: center;
-
-
+}
+.footer {
+  background-color: #9dbfdc;
+  border-top: 2px solid #bad4eb;
+}
+.footer-box {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  /* border: 2px solid green; */
+  /* background-color: #000; */
+  /* color: #f0f8ff; */
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 4rem;
+  /* border: 2px solid green; */
+  align-items: center;
+  padding: 2rem;
+}
+/* .quick-links{
+  display: flex;
+  flex-direction: column;
+   border: 2px solid blue; 
+ 
+} */
+/* .quick-links p{
+  padding-top: 2rem;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-family: var(--primary-font);
+  font-weight: bold;
+  cursor: pointer;
+} */
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  padding: 2rem;
+  /* margin: 2rem; */
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.footer-nav-link a {
+  color: #000;
+}
+.footer-nav-link {
+  list-style: none;
+}
+.contacts {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: capitalize;
+  /* border: 2px solid black; */
+  font-family: var(--primary-font);
+}
+.telephone {
+  display: flex;
+  gap: 2rem;
+}
+.email {
+  display: flex;
+  gap: 2rem;
+}
+.social-media {
+  display: flex;
+  font-size: 2rem;
+  gap: 2rem;
+  padding: 2rem;
+  /* border: 2px solid blue; */
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+}
+.actual-footer {
+  font-size: 1.5rem;
+  font-family: var(--primary-font);
+  text-align: center;
 }
 @media screen and (max-width: 600px) {
   /* navigation bar responsiveness */
@@ -407,21 +489,33 @@ margin: 2rem;
     row-gap: 2rem;
   }
   /* about responsiveness */
-  .about-box{
+  .about-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .about-description{
+  .about-description {
     width: 100vw;
     box-shadow: none;
-   
   }
-  .mission{
+  .mission {
     width: 80vw;
     /* padding-right: 12rem; */
     /* border: 2px solid red; */
     font-size: 1.5rem;
+  }
+  .social-media {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .contacts {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
   }
 }
